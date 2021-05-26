@@ -36,8 +36,8 @@ if (hasProperty('mopubAndroidSdkDir')) {
 println "Using MoPub Android SDK dir: " + mopubSdkDir
 println "as defined by: " + mopubSdkDirValueFrom + "\n"
 
-includeBuild(mopubSdkDir) {
-    dependencySubstitution {
-        substitute module('com.mopub:mopub-sdk') with project(':mopub-sdk')
-    }
-}
+//includeBuild(mopubSdkDir) {
+//    dependencySubstitution {
+//        substitute module('com.mopub:mopub-sdk') with project(':mopub-sdk')
+//    }
+//}
